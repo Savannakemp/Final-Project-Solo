@@ -24,4 +24,16 @@ module.exports = {
             // .assert('h1')
             
     },
+
+    'Style/Functionality': browser => {
+        navigationPage
+            .click('@NavigationTab')
+            .click('@UserAccount')
+            .click('@MyAccount')
+            .click('@Library') 
+            .click('@Contacts') 
+            .click('@Dashboard') 
+
+    },
 }
+

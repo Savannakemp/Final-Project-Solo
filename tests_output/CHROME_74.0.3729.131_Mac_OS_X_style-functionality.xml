@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="style-functionality"
+    errors="1" failures="0" hostname="" id="" package="style-functionality" skipped="0"
+    tests="1" time="5.604" timestamp="">
+  
+    <testcase name="Style/Functionality" classname="style-functionality" time="5.604" assertions="0">
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>
