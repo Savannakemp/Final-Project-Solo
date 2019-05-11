@@ -4,11 +4,42 @@ module.exports = {
         Username: "#username",
         Password: "#password",
         SubmitButton: "button[type='submit']",
-        NavigationTab: ".hamburger-menu",
-        UserAccount: "#userAcctTab_MainMenuMobile",
-        MyAccount: "a[href='/user/account/?ut_source=header']",
-        Library: "a[href='/team/library/?ut_source=header']",
-        Contacts: "a[href='/addressbook/?ut_source=header']",
-        Dashboard: "a[href='/dashboard/?ut_source=header']",
+        
+
+        // UserAccount: "#userAcctTab_MainMenuMobile",
+        // MyAccount: "a[href='/user/account/?ut_source=header']",
+        // Library: "a[href='/team/library/?ut_source=header']",
+        // Contacts: "a[href='/addressbook/?ut_source=header']",
+        // Dashboard: "a[href='/dashboard/?ut_source=header']",
+        // Surveys: "a[href='/home/?ut_source=header']",
+        // PlansAndPricing: "a[href='/pricing/upgrade/quickview?ut_source=header']",
+        // Logo: ".responsive-logo",
+        // Products: "#surveysTab_MainMenu",
+        // Enterprise: "a[href='/business/products/enterprise/overview/?ut_source=header']",
+        // Audience: "a[href='/mp/audience/?ut_source=header_products_launchpad_audience']",
+        // Integrations: 'a[href="/apps/?ut_source=header"]',
+        // CX: "a[href='https://cx.surveymonkey.com/?ut_source=header']",
+        // Engage: 'a[href="https://engage.surveymonkey.com/?ut_source=header"]',
+        // TechValidate: 'a[href="https://www.techvalidate.com/?ut_source=header"]',
+        // Wufoo: 'a[href="https://www.wufoo.com/?ut_source=header"]',
+        // Apply: 'a[href="https://apply.surveymonkey.com/?ut_source=header"]',
+        // Help: '.hd',
+        // HelpCenter: '.help',
+        // Curiosity: 'a[href="/curiosity/?ut_source=header"]',
+        // SignOut: 'a[href="/user/sign-out/?ut_source=header"]',
+        // LogIn: '.wds-button',
+        TitleLine: '.text-align-center',
+        MobileAccount: '.nav-user',
+        SectionLabel: '.section-label',
+        MobileNavTab: '.hamburger-menu',
+        MobileLogin: 'li a.log-in',
+        Products: '#surveysTab_MainMenuMobile',
+
+        
+
+
+
+
+
     }
 }

@@ -15,8 +15,8 @@ module.exports = {
         navigationPage
             .waitForElementVisible('.log-in')
             .click('.log-in')
-            .setValue('@Username', '') // username and password needs to be filled in.
-            .setValue('@Password', '')
+            .setValue('@Username', 'savannakemp@hotmail.com') // username and password needs to be filled in.
+            .setValue('@Password', 'Malachowski1674')
             .click('@SubmitButton')
             .waitForElementVisible('.welcome-line') 
             .click('#userAcctTab_MainMenu')
@@ -25,15 +25,11 @@ module.exports = {
             
     },
 
-    'Style/Functionality': browser => {
-        navigationPage
-            .click('@NavigationTab')
-            .click('@UserAccount')
-            .click('@MyAccount')
-            .click('@Library') 
-            .click('@Contacts') 
-            .click('@Dashboard') 
+    
 
-    },
+    // 'Create/Manage Account': browser => {
+    //     navigationPage
+
+    // },
+
 }
-
