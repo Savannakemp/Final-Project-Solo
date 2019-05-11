@@ -32,9 +32,9 @@ module.exports = {
         MobileAccount: '.nav-user',
         SectionLabel: '.section-label',
         MobileNavTab: '.hamburger-menu',
-        MobileLogin: 'li a.log-in',
+        MobileLogin: '#mobileMenu li > a.log-in',
         Products: '#surveysTab_MainMenuMobile',
-
+        
         
 
 

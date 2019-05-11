@@ -16,9 +16,9 @@ module.exports = {
         navigationPage
             .waitForElementVisible('.smf-icon')
             .click('@MobileNavTab')
-            // .waitForElementVisible('a[href="/pricing/?ut_source=megamenu"]')
+            .waitForElementVisible('@MobileLogin')
             .click('@MobileLogin')
-            // .waitForElementVisible('.wds-type--page-title max-width-header')
+            .waitForElementVisible('.wds-type--page-title')
             .setValue('@Username', '') // username and password needs to be filled in.
             .setValue('@Password', '')
             .click('@SubmitButton')
