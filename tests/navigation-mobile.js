@@ -22,28 +22,32 @@ module.exports = {
 
     after: browser => {
         navigationPage
-            .click('@MobileNavTab')
-            .waitForElementVisible('@SignOut')
-            .pause(1000)
-            .click('@SignOut')
+            // .click('@MobileNavTab')
+            // .waitForElementVisible('@SignOut')
+            // .pause(1000)
+            // .click('@SignOut')
+            // .waitForElementVisible('@Hi')
         browser.end()
     },
     
     'Navigation for Mobile': browser => {
         navigationPage
             .click('@MobileNavTab')
-            // .expect.element('@UserAccount').to.be.present
             .pause(1000)
+            // .expect.element('@UserAccount').to.be.present
             .click('@UserAccount')
         navigationPage
             .expect.element('@MyAccount').to.be.present
         navigationPage
             .click('@MyAccount')
+        navigationPage
             .expect.element('@AccountDetails').to.be.present
         navigationPage
             .click('@MobileNavTab')
         navigationPage
             .expect.element('@Dashboard').to.be.present
+        navigationPage
+            .pause(1000)
         // navigationPage
         //     .expect('@Surveys').to.be.present
         // navigationPage

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="2"
-            failures="1"
+<testsuites errors="0"
+            failures="0"
             tests="1">
 
   <testsuite name="navigation-mobile"
-    errors="2" failures="1" hostname="" id="" package="navigation-mobile" skipped="0"
-    tests="1" time="15.74" timestamp="">
+    errors="0" failures="0" hostname="" id="" package="navigation-mobile" skipped="0"
+    tests="1" time="12.71" timestamp="">
   
-    <testcase name="Navigation for Mobile" classname="navigation-mobile" time="15.74" assertions="6">
+    <testcase name="Navigation for Mobile" classname="navigation-mobile" time="12.71" assertions="6">
 
     
 
@@ -15,7 +15,7 @@
 
     
 
-      <failure message="Expected element &lt;Element [name=@AccountDetails]&gt; to be present - element was not found - expected [0;32m&#34;present&#34;[0m but got: [0;31m&#34;not present&#34;[0m">    at Object.Navigation for Mobile (/Users/savannakemp/Desktop/DevMountain/QA/Final-Project-Solo/tests/navigation-mobile.js:42:21)</failure>
+    
 
     
 

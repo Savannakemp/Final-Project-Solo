@@ -6,9 +6,9 @@ module.exports = {
         SubmitButton: "button[type='submit']",
         Library: "a[href='/team/library/?ut_source=header']",
         // Contacts: "a[href='/addressbook/?ut_source=header']",
-        Dashboard: ".first-item current",
-        Surveys: "a[href='/home/?ut_source=header']",
-        PlansAndPricing: "a[href='/pricing/upgrade/quickview?ut_source=header']",
+        Dashboard: "#mobileMenu > li:nth-child(2) > a",
+        // Surveys: "a[href='/home/?ut_source=header']",
+        // PlansAndPricing: "a[href='/pricing/upgrade/quickview?ut_source=header']",
         // Logo: ".responsive-logo",
         // Products: "#surveysTab_MainMenu",
         // Enterprise: "a[href='/business/products/enterprise/overview/?ut_source=header']",
@@ -33,11 +33,12 @@ module.exports = {
         HamburgerMenuMobile: '.hamburger-menu',
         Headline: '.headline ',
         ResponsiveLogo: '.responsive-logo',
-        UserAccount: ".hd notranslate",
-        MyAccount: 'a[href="/user/account/?ut_source=header"]',
-        AccountDetails: '.hd wds-type--section-title',
+        UserAccount: "#userAcctTab_MainMenuMobile",
+        MyAccount: '#mobile-my-account > ul > li:nth-child(1) > a',
+        AccountDetails: '#account-details-module > div.hd.wds-type--section-title',
         Title: '.sort',
-        SignOut: '#mobileMenu > li.last > a'
+        SignOut: '#mobileMenu > li.last > a',
+        Hi: 'body > div.content-wrapper > div > div > section.header-hero.simplified_and_signup.notranslate > div.hero-section.simplified_and_signup > div > div.inner-container > h1.national-med.medium.hero-text-1'
 
 
 
