@@ -19,12 +19,13 @@ module.exports = {
             .waitForElementVisible('@MobileLogin')
             .click('@MobileLogin')
             // .waitForElementVisible('@MobileMenu')
-            .setValue('@Username', '') // username and password needs to be filled in.
-            .setValue('@Password', '')
+            .setValue('@Username', 'savannakemp@hotmail.com') // username and password needs to be filled in.
+            .setValue('@Password', 'Malachowski1674')
             .click('@SubmitButton')
             .waitForElementVisible('@ResponsiveLogo')
             .click('@MobileNavTab')
             .waitForElementVisible('@SignOut')
+            .pause(1000)
             .click('@SignOut')
             // .click('@MobileNavTab')
             // .click('@UserAccount')
@@ -107,5 +108,5 @@ module.exports = {
 
 
 
-    },
+    }
 }
