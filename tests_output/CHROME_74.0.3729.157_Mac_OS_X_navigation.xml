@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="navigation"
+    errors="1" failures="0" hostname="" id="" package="navigation" skipped="0"
+    tests="1" time="7.003" timestamp="">
+  
+    <testcase name="Style/Functionality for Mobile" classname="navigation" time="7.003" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

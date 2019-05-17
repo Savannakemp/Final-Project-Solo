@@ -11,12 +11,12 @@ module.exports = {
         browser.end()
     },
 
-    'Login/Logout': browser => {
+    'Login/Logout Desktop': browser => {
         navigationPage
             .waitForElementVisible('.log-in')
             .click('.log-in')
-            .setValue('@Username', 'savannakemp@hotmail.com') // username and password needs to be filled in.
-            .setValue('@Password', 'Malachowski1674')
+            .setValue('@Username', '') // username and password needs to be filled in.
+            .setValue('@Password', '')
             .click('@SubmitButton')
             .waitForElementVisible('.welcome-line') 
             .click('#userAcctTab_MainMenu')
@@ -24,12 +24,5 @@ module.exports = {
             // .assert('h1')
             
     },
-
-    
-
-    // 'Create/Manage Account': browser => {
-    //     navigationPage
-
-    // },
 
 }
